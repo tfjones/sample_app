@@ -88,5 +88,9 @@ describe User do
       specify { expect(user_for_invalid_password).to be_false }
     end
   end
+
+  describe "user email should be converted to lower case" do
+ 
+  end
 end
 
